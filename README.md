@@ -1,12 +1,15 @@
-This analysis provides insights into the spread of COVID-19, vaccination progress, and the impact of the pandemic on different regions globally.
+The analysis of the COVID-19 dataset involved extracting and examining data on deaths and vaccinations from the database. 
 
-Extracted and reviewed COVID-19 deaths and vaccinations data from the "PortfolioProject" database tables.
-Focused on specific columns for analysis, including location, date, total cases, new cases, total deaths, and population.
-Calculated death rates and case rates to understand the severity of the pandemic in different locations.
-Identified countries with the highest infection rates relative to their population.
-Determined countries with the highest death counts both overall and per continent.
-Analyzed global trends in new cases, new deaths, and death rates over time.
-Explored the relationship between total population and total vaccinations to assess vaccination progress.
-Utilized Common Table Expressions (CTE) to calculate accumulated vaccinations over time for each location.
-Created a temporary table to store percentage of population vaccinated data.
-Developed views for easier access to calculated metrics for data visualization purposes.
+Key columns such as location, date, total cases, new cases, total deaths, and population were selected for scrutiny. 
+
+Death rates and case rates were calculated to gauge the severity of the pandemic across various locations, with a focus on identifying countries with the highest infection rates relative to their population. 
+
+Additionally, the analysis pinpointed countries with the highest death counts overall and per continent. 
+
+Trends in global new cases, new deaths, and death rates over time were assessed to understand the progression of the pandemic. 
+
+Furthermore, the relationship between total population and total vaccinations was explored to assess vaccination efforts. 
+
+Common Table Expressions (CTE) were employed to compute accumulated vaccinations over time for each location, while a temporary table was created to store percentage of population vaccinated data. 
+
+Views were established for easier access to calculated metrics, facilitating subsequent data visualization endeavors. This comprehensive analysis offers valuable insights into the spread of COVID-19 and the progress of vaccination campaigns globally.
